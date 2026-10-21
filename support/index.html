@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official Words and Sand player support. Get help with puzzles, progress, daily challenges, audio settings, and privacy.">
+  <meta name="theme-color" content="#131b27">
+  <title>Support | Words and Sand</title>
+  <style>
+    :root { color-scheme: dark; --bg:#131b27; --card:#1d2838; --border:#445165; --text:#f7eddc; --muted:#b9c5cf; --accent:#ffcf94; --gold:#edab61; }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at 50% -10%,#324052 0%,var(--bg) 54%); color:var(--text); }
+    a { color:var(--accent); text-underline-offset:3px; }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; border-radius:3px; }
+    .wrap { width:min(100% - 2.4rem,840px); margin-inline:auto; }
+    header { border-bottom:1px solid var(--border); padding:1.1rem 0; }
+    .header-content { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+    .brand { display:flex; align-items:center; gap:.7rem; font-weight:750; letter-spacing:.02em; color:var(--text); text-decoration:none; }
+    .mark { display:grid; place-items:center; width:2.25rem; height:2.25rem; border:1px solid #c18b4e; border-radius:11px; background:linear-gradient(135deg,#635139,#332c29); color:#ffdf9e; font-size:1.3rem; }
+    nav { display:flex; gap:1.15rem; align-items:center; flex-wrap:wrap; font-size:.9rem; }
+    main { padding:3rem 0 4rem; }
+    .eyebrow { color:var(--gold); text-transform:uppercase; letter-spacing:.19em; font-weight:760; font-size:.78rem; margin:0 0 .65rem; }
+    h1 { margin:0; font-size:clamp(2.5rem,7vw,4rem); line-height:1.13; letter-spacing:-.045em; color:var(--accent); }
+    .lead { max-width:650px; font-size:1.13rem; color:#d7e0e3; margin:1.2rem 0 1.7rem; }
+    .cta { display:inline-flex; align-items:center; justify-content:center; padding:.85rem 1.25rem; border-radius:12px; font-weight:750; text-decoration:none; color:#201b17; background:linear-gradient(135deg,#ffdfaa,#efb36b); min-height:48px; }
+    .contact { margin:1.4rem 0 0; color:var(--muted); overflow-wrap:anywhere; }
+    h2 { color:var(--accent); font-size:1.45rem; margin:2.5rem 0 1rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:1.15rem 1.3rem; }
+    .card h3 { color:#ffe0ae; font-size:1.03rem; margin:0 0 .45rem; }
+    .card p { color:#d5dee5; margin:0; font-size:.96rem; }
+    .hint { background:#222d3c; border-left:3px solid var(--gold); padding:1rem 1.25rem; border-radius:0 12px 12px 0; margin:1.4rem 0 0; }
+    .hint p { margin:0; }
+    .lang-section { border-top:1px solid var(--border); margin-top:3.2rem; padding-top:2.5rem; }
+    footer { border-top:1px solid var(--border); padding:1.3rem 0 2.2rem; color:var(--muted); font-size:.88rem; }
+    .footer-row { display:flex; justify-content:space-between; flex-wrap:wrap; gap:.5rem 1.5rem; }
+    @media (max-width:620px) { .grid {grid-template-columns:1fr;} main {padding-top:2.3rem;} }
+    @media (prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap header-content">
+      <a class="brand" href="../" aria-label="Words and Sand privacy policy"><span class="mark" aria-hidden="true">⌛</span><span>Words and Sand</span></a>
+      <nav aria-label="Site navigation">
+        <a href="#english">English</a>
+        <a href="#norsk" lang="nb">Norsk</a>
+        <a href="../">Privacy / Personvern</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="english" aria-labelledby="english-title">
+      <p class="eyebrow">Official player support</p>
+      <h1 id="english-title">We're here to help.</h1>
+      <p class="lead">Have a question about a puzzle, your progress, or a setting in Words and Sand? Contact the developer directly or check the quick answers below.</p>
+      <a class="cta" href="mailto:nick.doschoris@gmail.com?subject=Words%20and%20Sand%20Support">Email support ↗</a>
+      <p class="contact">Support email: <a href="mailto:nick.doschoris@gmail.com">nick.doschoris@gmail.com</a></p>
+
+      <h2>Quick answers</h2>
+      <div class="grid">
+        <article class="card"><h3>Can I play offline?</h3><p>Yes. Words and Sand is designed for offline play and does not require a player account.</p></article>
+        <article class="card"><h3>Where is my progress saved?</h3><p>Levels, stars and preferences are stored locally on your device. Uninstalling the game or clearing its data can remove saved progress. Backup and restore depend on your device settings.</p></article>
+        <article class="card"><h3>How do daily puzzles work?</h3><p>The daily puzzle is selected using your device's date. Your daily results are saved on that device.</p></article>
+        <article class="card"><h3>Can I change sounds or vibration?</h3><p>Yes. Open the game's Settings to adjust music, sound effects and vibration.</p></article>
+      </div>
+      <div class="hint"><p><strong>Reporting a problem?</strong> Please include your device model, iOS or Android version, the game version, and what happened. For puzzle issues, include the level or challenge and the language you were playing in. Please don't send passwords or sensitive personal data.</p></div>
+    </section>
+
+    <section id="norsk" lang="nb" class="lang-section" aria-labelledby="norsk-title">
+      <p class="eyebrow">Brukerstøtte</p>
+      <h2 id="norsk-title">Vi hjelper deg gjerne.</h2>
+      <p>Har du spørsmål om et ordpuslespill, fremgangen din eller innstillingene i Words and Sand? Ta kontakt direkte med utvikleren, eller se svarene nedenfor.</p>
+      <a class="cta" href="mailto:nick.doschoris@gmail.com?subject=Words%20and%20Sand%20Brukerst%C3%B8tte">Send e-post til brukerstøtte ↗</a>
+      <p class="contact">E-post: <a href="mailto:nick.doschoris@gmail.com">nick.doschoris@gmail.com</a></p>
+      <h2>Vanlige spørsmål</h2>
+      <div class="grid">
+        <article class="card"><h3>Kan jeg spille uten internett?</h3><p>Ja. Words and Sand kan spilles uten internett, og du trenger ingen brukerkonto.</p></article>
+        <article class="card"><h3>Hvor lagres fremgangen min?</h3><p>Nivåer, stjerner og innstillinger lagres lokalt på enheten. Hvis du avinstallerer spillet eller sletter appdata, kan fremgangen forsvinne. Sikkerhetskopiering og gjenoppretting avhenger av innstillingene på enheten.</p></article>
+        <article class="card"><h3>Hvordan fungerer dagens oppgave?</h3><p>Dagens oppgave velges ut fra datoen på enheten din. Resultatene lagres på enheten.</p></article>
+        <article class="card"><h3>Kan jeg endre lyd og vibrasjon?</h3><p>Ja. Åpne Innstillinger i spillet for å endre musikk, lydeffekter og vibrasjon.</p></article>
+      </div>
+      <div class="hint"><p><strong>Vil du rapportere en feil?</strong> Oppgi enhetsmodell, iOS- eller Android-versjon, spillversjon og hva som skjedde. For problemer med oppgaver kan du også oppgi nivået eller utfordringen og hvilket språk du spilte på. Ikke send passord eller sensitive personopplysninger.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-row"><span>© 2026 Nikolaos Doschoris · Words and Sand</span><a href="../">Privacy Policy / Personvernerklæring</a></div></footer>
+</body>
+</html>
